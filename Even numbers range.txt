@@ -1,0 +1,10 @@
+def even_bet(arg1, arg2):
+    while arg1 < arg2:
+        if arg1 % 2 == 0:
+            print(arg1)
+        arg1 += 1
+
+
+small_number = int(input("Enter an small number : "))
+big_number = int(input("Enter an big number : "))
+even_bet(small_number, big_number)
